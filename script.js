@@ -25,8 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     //Ejercicio 4
-      
-
+    const botonesDom = document.querySelectorAll('.btn-dom');
+    botonesDom.forEach(btn => {
+        btn.textContent = 'DOM listo ';
+    });
+    
 
 
 
